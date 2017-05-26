@@ -1,0 +1,6 @@
+{:http-port 8080
+ :ssl-port 9090
+ :private-key "path/to/private.key"
+ :certificate-chain ["path/to/server.cert"
+                     "path/to/intermediate-ca.cert"
+                     "..."]}
